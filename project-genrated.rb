@@ -1,4 +1,4 @@
-class FigmaExport < Formula
+class ProjectGenrated < Formula
   desc 'Tool for project genrated for xcode'
   homepage 'https://github.com/sequenia/generate-project.git'
   url 'https://github.com/sequenia/generate-project.git', tag: '0.1'
