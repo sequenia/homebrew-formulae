@@ -1,5 +1,5 @@
-class ProjectGenrated < Formula
-  desc 'Tool for project genrated for xcode'
+class ProjectGenerate < Formula
+  desc 'Tool for project generate for xcode'
   homepage 'https://github.com/sequenia/generate-project.git'
   url 'https://github.com/sequenia/generate-project.git', tag: '0.1'
   version '0.1'
@@ -9,10 +9,10 @@ class ProjectGenrated < Formula
 
   def install
     system 'make', 'build'
-    bin.install '.build/release/projectGenrated'
+    bin.install '.build/release/project-generate'
   end
 
   test do
-    system "#{bin}/projectGenrated gen"
+    system "#{bin}/project-generate gen"
   end
 end
