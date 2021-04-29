@@ -1,8 +1,8 @@
 class ProjectGenerate < Formula
   desc 'Tool for project generate for xcode'
   homepage 'https://github.com/sequenia/generate-project.git'
-  url 'https://github.com/sequenia/generate-project.git', tag: '0.1.6'
-  version '0.1.6'
+  url 'https://github.com/sequenia/generate-project.git', tag: '0.1.7'
+  version '0.1.7'
   license 'MIT'
 
   depends_on xcode: ['10.0', :build]
