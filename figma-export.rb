@@ -1,9 +1,8 @@
 class FigmaExport < Formula
   desc 'Tool for exporting resources from Figma: icons, colors, fonts'
-#   homepage 'https://github.com/sequenia/figma-export'
-  head 'https://github.com/sequenia/figma-export.git', :branch => "task/update_dependencies"
-#   url 'https://github.com/sequenia/figma-export.git', tag: '0.30.1'
-#   version '0.30.1'
+  homepage 'https://github.com/sequenia/figma-export'
+  url 'https://github.com/sequenia/figma-export.git', tag: '0.30.2'
+  version '0.30.2'
   license 'MIT'
 
   depends_on xcode: ['10.0', :build]
