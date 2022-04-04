@@ -8,7 +8,7 @@ class FigmaExport < Formula
   depends_on xcode: ['10.0', :build]
 
   def install
-    system 'make', 'build'
+    `make build`
     bin.install '.build/release/figma-export'
     bin.install 'Release/vd-tool/bin/vd-tool'
     lib.install 'Release/vd-tool/lib/FastInfoset-1.2.15.jar'
