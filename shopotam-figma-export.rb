@@ -9,7 +9,7 @@ class ShopotamFigmaExport < Formula
   
     def install
       `make build`
-      bin.install '.build/release/figma-export'
+      bin.install '.build/release/shopotam-figma-export'
       bin.install 'Release/vd-tool/bin/vd-tool'
       lib.install 'Release/vd-tool/lib/FastInfoset-1.2.15.jar'
       lib.install 'Release/vd-tool/lib/aapt2-proto-4.1.0-alpha01-6193524.jar'
@@ -64,7 +64,7 @@ class ShopotamFigmaExport < Formula
     end
   
     test do
-      system "#{bin}/figma-export colors"
+      system "#{bin}/shopotam-figma-export colors"
     end
   end
   
