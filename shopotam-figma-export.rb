@@ -1,8 +1,8 @@
 class ShopotamFigmaExport < Formula
     desc 'Tool for exporting resources from Figma: icons, colors, fonts'
     homepage 'https://github.com/sequenia/shopotam-figma-export'
-    url 'https://github.com/sequenia/shopotam-figma-export.git', tag: '0.40.9'
-    version '0.40.10'
+    url 'https://github.com/sequenia/shopotam-figma-export.git', tag: '0.41.0'
+    version '0.41.0'
     license 'MIT'
   
     depends_on xcode: ['14.0', :build]
